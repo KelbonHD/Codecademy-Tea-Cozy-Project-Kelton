@@ -7,6 +7,9 @@
     opacity: 0.9;
     text-align: center;
 }
+h2 {
+    font-size: 32px;
+}
 header {
     position: fixed;
     border-bottom: 1px solid seashell;
@@ -35,6 +38,7 @@ li {
     display: inline;
     padding: 10px 10px;
     margin-right: 10px;
+    font-size: 24px;
 }
 .intro {
     padding-top: 70px;
@@ -44,14 +48,24 @@ li {
     height: 700px;
     position: relative;
     margin: auto;
+    display: flex;
+    align-items: center;
+    flex-shrink: 1;
+    justify-content: center;
 }
 .intro div {
+    opacity: 1;
+    height: 100px;
+    width: 1200px;
+    margin: auto;
+    flex-shrink: 1;
+    padding-bottom: 30px;
     opacity: 1;
 }
 .teaOptions {
     display: flex;
     justify-content: space-around;
-    width: 1000px;;
+    width: 1000px;
     flex-wrap: wrap;
     margin: auto;
 }
