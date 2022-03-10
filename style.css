@@ -12,6 +12,7 @@ header {
     border-bottom: 1px solid seashell;
     height: 69px;
     width: 100%;
+    top: 0;
     margin: auto;
     z-index: 1;
 }
@@ -19,6 +20,7 @@ header {
     height: 50px;
     float: left;
     padding-left: 10px;
+    padding-top: 10px;
 }
 nav{
     position: relative;
@@ -41,6 +43,7 @@ li {
     width: 1200px;
     height: 700px;
     position: relative;
+    margin: auto;
 }
 .intro div {
     opacity: 1;
@@ -48,8 +51,9 @@ li {
 .teaOptions {
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 1000px;;
     flex-wrap: wrap;
+    margin: auto;
 }
 .teaItem img {
     width: 300px;
@@ -59,7 +63,15 @@ li {
     background-image: url(Images/locationsbackground.webp);
     height: 500px;
     width: 1200px;
+    margin: auto;
 }
 .location {
     display: inline-block;
+}
+footer {
+    height: 200px;
+    width: 100%;
+}
+.copyright {
+    float: left;
 }
