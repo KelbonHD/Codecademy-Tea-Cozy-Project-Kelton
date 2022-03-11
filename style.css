@@ -44,7 +44,7 @@ li {
     padding-top: 70px;
     background-image: url(Images/missionbackground.webp);
     background-repeat: no-repeat;
-    width: 1200px;
+    max-width: 1200px;
     height: 700px;
     position: relative;
     margin: auto;
@@ -68,6 +68,9 @@ li {
     width: 1000px;
     flex-wrap: wrap;
     margin: auto;
+    height: auto;
+    width: auto;
+    max-width: 1000px;
 }
 .teaItem img {
     width: 300px;
@@ -75,12 +78,43 @@ li {
 }
 .locationSection {
     background-image: url(Images/locationsbackground.webp);
-    height: 500px;
+    display: relative;
+    height: 600px;
     width: 1200px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    position: relative;
     margin: auto;
 }
+.locationSection h2 {
+    background-color: transparent;
+    margin: auto;
+    position: relative;
+    top: 20%;
+}
 .location {
-    display: inline-block;
+    display: inline-flex;
+    padding: 0px;
+    width: 300px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 20px;
+    opacity: 1;
+    flex-shrink: 1;
+    position: relative;
+    top: 20%;
+    flex-wrap: wrap;
+}
+.location h3 {
+    position: relative;
+    display: block;
+    font-size: 26px;
+}
+.location p{
+    display: block;
+    padding-bottom: 15px;
+
 }
 footer {
     height: 200px;
